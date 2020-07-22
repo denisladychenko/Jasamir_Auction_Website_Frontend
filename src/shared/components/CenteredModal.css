@@ -1,0 +1,13 @@
+
+
+.mailing-list-form label{
+    margin-left: 14px;
+    font-weight: bold;
+}
+
+.mailing-list-form input{
+    border:1px solid gray;
+}
+.modal-header {
+    border-bottom: 3px solid black;
+}

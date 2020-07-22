@@ -1,0 +1,71 @@
+.nav-bar {
+    background-color: #333333;
+    height: 3.2rem;
+    position: relative;
+}
+
+.logo {
+    color: white;
+    margin: 0.7rem;
+    /* font-family: 'Lora', serif;
+    font-size: 2rem; */
+    width: inherit;
+    height: inherit;
+    margin: 0px;
+    padding: 7px;
+}
+
+.logo-container {  
+    width: 300px;
+    height: 150px;
+}
+
+.upper-nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(29, 28, 28);
+    height: 11rem; 
+    width: 100%;
+}
+
+.bars {
+    display: none;
+}
+
+.search-container {
+    display: block;
+    float: right;
+    margin: 7.5px 25px 7.5px 0;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+
+@media only screen and (max-width: 1080px){
+    body, html {
+        margin: 0;
+        padding: 0;
+    }
+    .nav-bar {
+        width: 100%;
+    }
+    .bars {
+        display: block;
+        float: left;
+        margin: 1px 10px;
+    }
+}
+
+@media only screen and (max-width: 415px){
+    
+    .bars {
+        margin: 9px 10px;
+        font-size: 2rem;
+    }
+    .logo {
+        margin: 0.5rem 0.1rem;
+        font-size: 2rem; 
+    }
+}
