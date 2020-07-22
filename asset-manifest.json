@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/denisladychenko/Love_Antiques_Website_Frontend/static/css/main.b8abd646.chunk.css",
-    "main.js": "/denisladychenko/Love_Antiques_Website_Frontend/static/js/main.f83cd5ee.chunk.js",
-    "main.js.map": "/denisladychenko/Love_Antiques_Website_Frontend/static/js/main.f83cd5ee.chunk.js.map",
-    "runtime-main.js": "/denisladychenko/Love_Antiques_Website_Frontend/static/js/runtime-main.6c87c751.js",
-    "runtime-main.js.map": "/denisladychenko/Love_Antiques_Website_Frontend/static/js/runtime-main.6c87c751.js.map",
-    "static/js/2.6a35890b.chunk.js": "/denisladychenko/Love_Antiques_Website_Frontend/static/js/2.6a35890b.chunk.js",
-    "static/js/2.6a35890b.chunk.js.map": "/denisladychenko/Love_Antiques_Website_Frontend/static/js/2.6a35890b.chunk.js.map",
-    "index.html": "/denisladychenko/Love_Antiques_Website_Frontend/index.html",
-    "precache-manifest.d4223227beeb5070b2f02c3f69455c63.js": "/denisladychenko/Love_Antiques_Website_Frontend/precache-manifest.d4223227beeb5070b2f02c3f69455c63.js",
-    "service-worker.js": "/denisladychenko/Love_Antiques_Website_Frontend/service-worker.js",
-    "static/css/main.b8abd646.chunk.css.map": "/denisladychenko/Love_Antiques_Website_Frontend/static/css/main.b8abd646.chunk.css.map",
-    "static/js/2.6a35890b.chunk.js.LICENSE.txt": "/denisladychenko/Love_Antiques_Website_Frontend/static/js/2.6a35890b.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.b8abd646.chunk.css",
+    "main.js": "/static/js/main.f83cd5ee.chunk.js",
+    "main.js.map": "/static/js/main.f83cd5ee.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c8a21426.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c8a21426.js.map",
+    "static/js/2.6a35890b.chunk.js": "/static/js/2.6a35890b.chunk.js",
+    "static/js/2.6a35890b.chunk.js.map": "/static/js/2.6a35890b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.f23d5769e139626d27374a96ae84f053.js": "/precache-manifest.f23d5769e139626d27374a96ae84f053.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.b8abd646.chunk.css.map": "/static/css/main.b8abd646.chunk.css.map",
+    "static/js/2.6a35890b.chunk.js.LICENSE.txt": "/static/js/2.6a35890b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.6c87c751.js",
+    "static/js/runtime-main.c8a21426.js",
     "static/js/2.6a35890b.chunk.js",
     "static/css/main.b8abd646.chunk.css",
     "static/js/main.f83cd5ee.chunk.js"
