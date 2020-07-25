@@ -2,15 +2,15 @@
     background-color: #333333;
     height: 3.2rem;
     position: relative;
+    display: block;
+    width: 100%;
 }
 
 .logo {
     color: white;
     margin: 0.7rem;
-    /* font-family: 'Lora', serif;
-    font-size: 2rem; */
-    width: inherit;
-    height: inherit;
+    width: 100%;
+    height: auto;
     margin: 0px;
     padding: 7px;
 }
@@ -33,6 +33,11 @@
     display: none;
 }
 
+.home-icon, .coins-icon, .money-icon, .tools-icon, .contact-icon, .about-icon{
+    margin-right: 8px;
+}
+
+
 .search-container {
     display: block;
     float: right;
@@ -43,14 +48,8 @@
 }
 
 
-@media only screen and (max-width: 1080px){
-    body, html {
-        margin: 0;
-        padding: 0;
-    }
-    .nav-bar {
-        width: 100%;
-    }
+@media only screen and (max-width: 1220px){
+    
     .bars {
         display: block;
         float: left;

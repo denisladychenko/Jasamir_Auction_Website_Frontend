@@ -4,7 +4,11 @@ import "./HomePage.css"
 
 const HomePage = props => {
     return (
-        <img className="antiques-sign" src="/assets/images/books_960_720.jpg" alt="Antiques" />
+      <img
+        className="header-image"
+        src="/assets/images/columns_1900_1265.png"
+        alt="Antiques"
+      />
     );
 };
 
