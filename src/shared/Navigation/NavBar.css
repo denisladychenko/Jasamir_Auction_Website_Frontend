@@ -78,15 +78,43 @@
         margin: 1px 10px;
     }
 }
+/*tablet size*/
+@media only screen and (max-width: 780px){
+    .nav-bar {
+        position: static;
+    }
+    .logo-container {
+        transform: scale(0.5);
+    }
 
+    .bars {
+        display: block;
+        float: left;
+        margin: 1px 10px;
+    }
+   
+    .upper-nav-container {
+    position: static;
+    height: 5.5rem;
+    }
+
+}
+
+
+/*phone size*/
 @media only screen and (max-width: 415px){
-    
+  
     .bars {
         margin: 9px 10px;
         font-size: 2rem;
     }
-    .logo {
-        margin: 0.5rem 0.1rem;
-        font-size: 2rem; 
+    .logo-container {
+        transform: scale(0.5);
     }
+   
+    /* .upper-nav-container {
+    position: static;
+    height: 5.5rem;
+    } */
+
 }

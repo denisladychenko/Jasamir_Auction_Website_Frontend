@@ -15,6 +15,8 @@ const NavBar = () => {
     const clickHandler = () => {
         $(".nav-item-list").toggleClass("showing");
     };
+
+    
     return (
       <header>
         <div className="upper-nav-container">

@@ -56,9 +56,9 @@
     user-select: none;
     cursor: pointer;
 }
-
+/*this class is for disabled nav-links*/
 .noSelect:hover {
-    border:none;
+    border-bottom:none;
 }
 
 @media only screen and (max-width: 1220px){
@@ -76,14 +76,14 @@
     }
     .dropdown-link:hover,  .dropdown-link.active {
         background-color: #333333;
-        border-bottom: none;
+        /* border-bottom: none; */
     }
     .dropdown {
         display: block;
-        border-bottom: none;
+        /* border-bottom: none; */
     }
 
     .dropdown :last-child a{
-    border-radius: 0;
-}
+        border-radius: 0;
+    }
 }
