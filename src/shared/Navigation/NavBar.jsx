@@ -74,6 +74,7 @@ const NavBar = () => {
                 Sell
               </NavItem>
               <Dropdown
+                id={["appraisals", "catalogue-auctions"]}
                 className="nav-item-link"
                 to={["/appraisals", "/catalogue-auctions"]}
                 items={["Appraisals", "Catalogue Auctions"]}
@@ -85,6 +86,7 @@ const NavBar = () => {
                 Services
               </Dropdown>
               <Dropdown
+                id={["about", "locations"]}
                 className="nav-item-link"
                 to={["/about", "/locations"]}
                 items={["About Us", "Locations"]}
@@ -98,6 +100,7 @@ const NavBar = () => {
                 About us
               </Dropdown>
               <Dropdown
+                id={["contact", "mailing-list"]}
                 className="nav-item-link"
                 to={["/contact", "/mailing-list"]}
                 items={["Contact Us", "Join Mailing List"]}

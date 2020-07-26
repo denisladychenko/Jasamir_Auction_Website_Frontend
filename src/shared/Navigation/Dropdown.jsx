@@ -8,11 +8,6 @@ import NavItem from "./NavItem";
 
 const Dropdown = props => {
     let key = 0;      //a key value for a dropdown link
-
-    // const clickHandler = () => { 
-    //     alert("Hello");
-        
-    // };
     
 
     return (
@@ -37,10 +32,10 @@ const Dropdown = props => {
           {props.items.map((item, index) => {
             return (
               <NavItem
+                id={props.id[index]}
                 className="dropdown-link"
                 key={key++}
                 to={props.to[index]}
-            
               >
                 {item}
               </NavItem>

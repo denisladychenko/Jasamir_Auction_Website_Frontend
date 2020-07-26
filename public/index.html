@@ -65,10 +65,28 @@
       integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script>
 
-      $("dropdown-link").on("click", function () {
-          alert(this.id);
+    <script>
+      var position = $(window).scrollTop();
+
+      //on scroll event
+      $(window).scroll( function () {
+        var scroll = $(window).scrollTop();    //scroll amount
+        //if scrolling down
+          if(scroll > position){
+            $(".upper-nav-container").addClass("smaller")   //make header container smaller
+            $(".logo-container").addClass("zoomed");       //scale down the logo
+            $(".nav-bar").addClass("fixed");               //stick the nav-bar to the top
+            //if the scroll bar is at the top leveled up with the header container
+          }else if(position < $(".upper-nav-container").height()){
+            $(".upper-nav-container").removeClass("smaller")    //make header container bigger
+            $(".logo-container").removeClass("zoomed");         //scale the logo up
+            $(".upper-nav-container").css("transition", "height 0.5s");     //add nice transition
+            $(".logo-container").css("transition", "transform 0.5s");
+            $(".nav-bar").css("transition", "top 0.5s");
+            $(".nav-bar").removeClass("fixed");  //nav bar is no loger at a fixed position
+          }
+          position = scroll;       //set position to the scroll amount
         });
     </script>
   </body>

@@ -1,9 +1,18 @@
 .nav-bar {
     background-color: #333333;
     height: 3.2rem;
-    position: relative;
+    position: fixed;
     display: block;
     width: 100%;
+    top: 11rem;
+}
+
+.fixed {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top:5.5rem;
+    transition: top 0.5s;
 }
 
 .logo {
@@ -21,12 +30,25 @@
 }
 
 .upper-nav-container {
+    position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(29, 28, 28);
     height: 11rem; 
     width: 100%;
+}
+
+.smaller {
+    position: fixed;
+    top: 0;
+    height: 5.5rem;
+    transition: height 0.5s;
+}
+
+.zoomed {
+    transform: scale(0.5);
+    transition: 0.5s;
 }
 
 .bars {

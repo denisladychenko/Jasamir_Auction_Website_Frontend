@@ -9,7 +9,7 @@
 } 
 
 .dropdown-link {
-     color: white;
+    color: white;
     display: block;
     font-size: 0.8rem;
     text-decoration: none;
@@ -38,6 +38,8 @@
 .dropdown :last-child a{
     border-radius: 0 0 5px 5px;
 }
+
+
 
 .chevron {
     font-size: 0.8rem;
