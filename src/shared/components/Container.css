@@ -1,1 +1,16 @@
 
+.page-content-container {
+    min-height: calc(100vh - 18.4rem);
+    min-width: 100%;
+    /* height: calc(100vh - 14.2rem); */
+    height: auto;
+    margin-top: 14.2rem;
+}
+
+
+@media only screen and (max-width: 780px){
+    .page-content-container {
+        min-height: calc(100vh - 14.2rem);
+        margin-top: 0;
+    }
+}

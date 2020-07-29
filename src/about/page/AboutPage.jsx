@@ -1,10 +1,13 @@
 import React from "react";
 
 import "./AboutPage.css";
+import Container from "../../shared/components/Container";
 
 const AboutPage = () => {
     return (
-        <p>AboutPage</p>
+        <Container className="page-content-container">
+            <h1>About Us</h1>
+        </Container>
     );
 };
 

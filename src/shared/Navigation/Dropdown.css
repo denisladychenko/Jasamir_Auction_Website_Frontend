@@ -1,5 +1,5 @@
  .dropdown {
-  position: absolute;
+    position: absolute;
     top: 3.1rem;
     left: 0;
     width: 180px;
@@ -64,9 +64,16 @@
 @media only screen and (max-width: 1220px){
     .dropdown {
         position: static;
+        top:100%;
         width: inherit;
         display: none;
+        /* display: block; */
     }
+
+    .nav-item:hover .dropdown {
+        display: block;
+    }
+
     .dropdown-link {
         text-align: left;
         text-indent: 20px;
@@ -74,16 +81,12 @@
         width: inherit;
         border-bottom: 1px solid white;
     }
-    .dropdown-link:hover,  .dropdown-link.active {
-        background-color: #333333;
-        /* border-bottom: none; */
-    }
-    .dropdown {
-        display: block;
-        /* border-bottom: none; */
-    }
 
     .dropdown :last-child a{
         border-radius: 0;
     }
+
+    .dropdown-link:hover {
+    background-color: #333333;
+}
 }

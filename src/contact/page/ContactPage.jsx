@@ -1,10 +1,13 @@
 import React from "react";
 
 import "./ContactPage.css";
+import Container from "../../shared/components/Container.jsx";
 
 const ContactPage = () => {
     return (
-        <p>ContactPage</p>
+        <Container className="page-content-container">
+            <h1>Contact Us</h1>
+        </Container>
     );
 };
 

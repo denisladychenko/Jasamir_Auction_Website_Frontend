@@ -4,12 +4,13 @@
     <meta charset="utf-8" />
     <!-- <link rel="icon" href="%PUBLIC_URL%/favicon.ico" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="keywords" content="Loveantiques, Auction, Auction in Sevierville, Auction in Tennessee, Auction in Knoxville" />
+    <meta name="keywords" content="Jasamir, Jasamir Auctions, Jasamir Antiques, Auction, Auction in Sevierville, Auction in Tennessee, Auction in Knoxville" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
       content="Auction website"
     />
+    <meta name="author" content="Denis Ladychenko" />
     <!--favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -43,7 +44,7 @@
   href="https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Montserrat:ital,wght@0,500;0,700;1,500&display=swap"
   rel="stylesheet">
     
-    <title>Loveantiques auction</title>
+    <title>Jasamir auction</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -67,27 +68,28 @@
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
     <script>
-      var position = $(window).scrollTop();
 
       //on scroll event
       $(window).scroll( function () {
-        var scroll = $(window).scrollTop();    //scroll amount
+        let scroll = $(window).scrollTop();    //scroll amount
+        const distFromTop = 80;
         //if scrolling down  and screen size is greater than 780
-          if((scroll > position) && (screen.width > 780)){
-            $(".upper-nav-container").addClass("smaller")   //make header container smaller
+          if((scroll > distFromTop) && (screen.width > 780)){
+            $(".upper-nav-container").addClass("upper-nav-container-smaller")   //make header container smaller
             $(".logo-container").addClass("zoomed");       //scale down the logo
-            $(".nav-bar").addClass("fixed");               //stick the nav-bar to the top
+            $(".nav-bar").addClass("nav-bar-fixed");               //stick the nav-bar to the top
+
             //if the scroll bar is at the top leveled up with the header container 
             //and a screen size is greater than a tablet screen size
-          }else if(position < $(".upper-nav-container").height() && (screen.width > 780)){
-            $(".upper-nav-container").removeClass("smaller")    //make header container bigger
+          }else if(scroll < $(".upper-nav-container").height() && (screen.width > 780)){
+             $(".upper-nav-container").removeClass("upper-nav-container-smaller")    //make header container bigger
             $(".logo-container").removeClass("zoomed");         //scale the logo up
             $(".upper-nav-container").css("transition", "height 0.5s");     //add nice transition
             $(".logo-container").css("transition", "transform 0.5s");
             $(".nav-bar").css("transition", "top 0.5s");
-            $(".nav-bar").removeClass("fixed");  //nav bar is no loger at a fixed position
+            $(".nav-bar").removeClass("nav-bar-fixed");  //nav bar is no loger at a fixed position
+            
           }
-          position = scroll;       //set position to the scroll amount
         });
     </script>
   </body>

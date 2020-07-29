@@ -10,6 +10,7 @@ const NavItem = props => {
     const NavLinkClickHandler = (e) => {
       //close mobile nav menu
       $(".nav-item-list").toggleClass("showing");
+        
         try {
           //get all the dropdown links
            const dropdownLinks = $(".dropdown-link");

@@ -1,10 +1,14 @@
 import React from "react";
 
 import "./BuyPage.css";
+import Container from "../../shared/components/Container";
 
 const BuyPage = props => { 
     return (
-        <h1>BuyPage</h1>
+        <Container className="page-content-container">
+            <h1>BuyPage</h1>
+        </Container>
+        
     );
 };
 

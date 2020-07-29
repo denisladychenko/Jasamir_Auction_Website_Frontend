@@ -1,11 +1,14 @@
 import React from "react";
 
 import "./MailingListPage.css";
+import Container from "../../shared/components/Container";
 
 
 const MailingListPage = props => { 
     return (
-        <h1>MailingList Page</h1>
+        <Container className="page-content-container">
+            <h1>Mailing List</h1>
+        </Container>
     );
 };
 

@@ -38,11 +38,13 @@
         max-height: 0px;
         width: 100%;
         padding:0;
-        overflow: hidden;
+        display: none;
+        /* overflow: hidden; */
     }
     .showing {
         max-height: 100%;
-        overflow: visible;
+        /* overflow: visible; */
+        display: block;
     }
     .nav-item {
         background-color: #333333;
