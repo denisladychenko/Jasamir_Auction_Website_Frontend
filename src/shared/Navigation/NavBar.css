@@ -5,6 +5,7 @@
     display: block;
     width: 100%;
     top: 11rem;
+    z-index: 10;
 }
 
 .logo {
@@ -30,6 +31,7 @@
     background-color: rgb(29, 28, 28);
     height: 11rem; 
     width: 100%;
+    z-index: 20;
 }
 
 .upper-nav-container-smaller {
@@ -42,7 +44,7 @@
 .nav-bar-fixed {
     /* position: fixed; */
     width: 100%;
-    z-index: 10;
+    /* z-index: 10; */
     top:5.5rem;
     transition: top 0.5s;
 }

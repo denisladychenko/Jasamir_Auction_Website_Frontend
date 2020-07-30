@@ -7,3 +7,20 @@
   height: auto;
   box-sizing: border-box;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lora', serif;
+  font-weight: bolder;
+}
+
+p {
+  font-family: 'Lora', serif;
+  font-family: 'Montserrat', sans-serif;
+}
+button {
+  text-transform: uppercase;
+}
+
+a:hover {
+  text-decoration: none;
+}

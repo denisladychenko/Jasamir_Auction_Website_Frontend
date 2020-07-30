@@ -1,0 +1,7 @@
+.auction-info-section {
+    position: relative;
+    min-width: 100%;
+    min-height: 400px;
+    background-color: rgb(213, 219, 224);
+    z-index: 1;
+}

@@ -1,0 +1,27 @@
+.slogan-container {
+    position: absolute;
+    display: inline-block;
+    width: 40%;
+    top: 17rem;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: rgb(58, 59, 59, 0.7);
+    color: white;
+    z-index: 0;
+}
+
+
+
+
+
+
+
+
+/*ids*/
+
+#jasamir {
+    color: rgb(176, 182, 154);
+}
