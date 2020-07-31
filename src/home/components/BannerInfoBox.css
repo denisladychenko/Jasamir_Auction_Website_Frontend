@@ -1,7 +1,6 @@
 .banner-info-box-outer-container {
     display: inline-block;
     width: 50%;
-    /* border: 1px solid black; */
     height: 400px;
     text-align: center;
     color: white;
@@ -12,7 +11,6 @@
     width: 360px;
     height: 360px;
     border: 5px solid rgb(176, 182, 154);
-    /* border: 5px solid #4CAF50; */
     transform: rotate(45deg);
     margin: 100px auto;
     z-index: -1;
@@ -22,7 +20,6 @@
 
 .banner-info-box-top-container {
     position: absolute;
-    /* border: 1px solid red; */
     width: 430px;
     height: 400px;
     transform: rotate(-45deg);
@@ -31,38 +28,19 @@
 }
 
 .banner-infobox-title-container {
-    /* display: inline-block; */
     width: 200px;
     height: 50px;
-    /* border: 1px solid wheat; */
-    margin: auto;
-    /* position: absolute;
-    top: 80px;
-    left: 30px; */
-    /* transform: translate(-50%); */
-    
+    margin: 10px auto;
 }
 
 .banner-infobox-paragraph-container {
-    /* width: 100px;
-    height: 50px; */
-    /* border: 1px solid wheat; */
     padding: 50px;
-    /* position: absolute;
-    top: 30px;
-    transform: rotate(-45deg); */
 }
 
 .banner-infobox-icon-container {
-    /* display: inline-block; */
     margin: auto;
     width: 100px;
     height: 80px;
-    /* border: 1px solid wheat; */
-    /* position: absolute;
-    top: 30px;
-    left: 50px; */
-    
 }
 
 
@@ -76,8 +54,156 @@
     font-family: 'Lora', serif;
     font-size: 3rem;
     font-weight: bolder;
+    color: rgb(176, 182, 154);
+    border: 1px solid rgb(176, 182, 154);
+    border-radius: 5px;
 }
 
-.banner-infobox-paragraph {
-    
+
+/*media queries*/
+
+@media only screen and (max-width: 1360px) {
+
+    .banner-info-box-outer-container {
+        height: 360px;
+    }
+
+
+    .banner-info-box-inner-container {
+        width: 300px;
+        height: 300px;
+    }
+
+    .banner-info-box-top-container {
+        width: 360px;
+        height: 340px;
+        margin:  -40px -50px;
+    }
+
+    .banner-infobox-title-container {
+        width: 160px;
+        height: 30px;
+        margin: 15px auto;
+    }
+
+    .banner-infobox-paragraph-container {
+        padding: 40px 40px;
+    }
+
+    .banner-infobox-paragraph {
+        font-size: 0.95rem;
+    }
+
+    .banner-infobox-icon-container {
+        margin: 30px auto 0px;
+        width: 80px;
+        height: 60px;
+    }
+
+    .banner-infobox-title {
+        display: inline-block;
+        font-size: 2.5rem;
+        padding: 0 10px;
+        border: 1px solid rgb(176, 182, 154);
+        border-radius: 5px;
+    }
+}
+
+
+
+@media only screen and (max-width: 1150px) {
+    .banner-info-box-outer-container {
+        height: 100%;
+    }
+
+
+    .banner-info-box-inner-container {
+        width: 100%;
+        height: 100%;
+        transform: rotate(0deg);
+        margin:  0 auto;
+    }
+
+    .banner-info-box-top-container {
+        position: static;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        transform: rotate(0deg);
+        display: inline-block;
+    }
+
+    .banner-infobox-title-container {
+        width: 160px;
+        height: 30px;
+        margin: 25px auto;
+    }
+
+    .banner-infobox-paragraph-container {
+        position: relative;
+        display: inline-block;
+        margin-top: 15px;
+        padding: 30px 20px;
+    }
+
+    .banner-infobox-paragraph {
+        font-size: 0.95rem;
+    }
+
+    .banner-infobox-icon-container {
+        margin: 15px auto;
+        width: 80px;
+        height: 60px;
+    }
+
+    .banner-infobox-title {
+        font-size: 2.5rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 780px) {
+
+
+    .banner-infobox-title-container{
+        display: inline-block;
+        height: auto;
+        width: auto;
+        margin: 5px auto;
+    }
+
+    .banner-infobox-title-container p{
+        display: inline-block;
+        border: 1px solid rgb(176, 182, 154);
+        border-radius: 5px;
+        padding: 5px 20px ;
+        margin: 0
+    }
+
+    .banner-infobox-paragraph-container {
+        margin-top: 0;
+        padding: 15px 20px;
+    }
+
+}
+
+
+/*mobile size*/
+@media only screen and (max-width: 550px) {
+
+
+    .banner-infobox-paragraph-container {
+        display: none;
+    }
+
+    .banner-infobox-title-container {
+        width: 99%;
+    }
+
+    .banner-infobox-title-container p{
+        font-size: 1.8rem;
+        padding: 5px 5px ;
+        width: 99%;
+    }
 }

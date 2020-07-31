@@ -13,11 +13,23 @@
     z-index: 0;
 }
 
+@media only screen and (max-width: 1360px) {
+    
+}
+
+@media only screen and (max-width:780px) {
+    .slogan-container {
+        top: 12rem;
+    }
+}
 
 
-
-
-
+/*smaller height*/
+@media only screen and (max-height:900px) {
+    .slogan-container {
+        display: none;
+    }
+}
 
 
 /*ids*/

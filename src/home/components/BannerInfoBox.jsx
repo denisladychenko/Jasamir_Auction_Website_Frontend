@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./BannerInfoBox.css";
+import { NavLink } from "react-router-dom";
 
 const BannerInfoBox = props => { 
     return (
@@ -11,7 +12,7 @@ const BannerInfoBox = props => {
                         <img className="banner-infobox-image" src={props.icon} alt={props.imgAlt}/>
                     </div>
                     <div className="banner-infobox-title-container">
-                        <p className="banner-infobox-title">{props.title}</p>
+                        <NavLink to={props.link}><p className="banner-infobox-title">{props.title}</p></NavLink>
                     </div>
                     <div className="banner-infobox-paragraph-container">
                         <p className="banner-infobox-paragraph">{props.children}</p>

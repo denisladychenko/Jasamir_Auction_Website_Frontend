@@ -27,11 +27,11 @@ const HomePage = props => {
           <NavLink to="/about"><button className="btn btn-block btn-success">Learn more about us</button></NavLink>
         </SloganContainer>
         <BannerBottomContainer >
-          <BannerInfoBox icon="/assets/images/sell.jpg" imgAlt="Sell with Jasamir" title="Sell">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, dolorem fuga ducimus fugit voluptatum numquam quaerat.
-          </BannerInfoBox>  
-          <BannerInfoBox icon="/assets/images/libra.jpg" imgAlt="Appraise with Jasamir" title="Appraise">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, dolorem fuga ducimus fugit voluptatum numquam quaerat.
+            <BannerInfoBox icon="/assets/images/sell.jpg" imgAlt="Sell with Jasamir" title="Sell" link="/sell">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, dolorem fuga ducimus fugit voluptatum numquam quaerat.
+          </BannerInfoBox>
+            <BannerInfoBox icon="/assets/images/libra.jpg" imgAlt="Appraise with Jasamir" title="Appraise" link="/appraisals">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, dolorem fuga ducimus fugit voluptatum numquam quaerat.
           </BannerInfoBox> 
         </BannerBottomContainer>
       </BannerSection>
