@@ -7,13 +7,13 @@
 .nav-item-link {
    color: white;
    padding: 11px 25px;
-   
 }
 
 .nav-item {
     display: inline-block;
     padding: 13px  2px;
     position: relative;
+    z-index: 10;
 }
 
 .nav-item a{
