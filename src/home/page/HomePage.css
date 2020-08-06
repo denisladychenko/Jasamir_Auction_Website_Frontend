@@ -3,3 +3,14 @@
     height: 100%;
 }
 
+
+
+.section-title {
+    text-align: center;
+    font-size: 5rem;
+    color: rgb(57, 60, 63);;
+    font-family: 'Lora', serif;
+    font-weight: bolder;
+    margin: 0;
+    padding-top: 50px;
+}

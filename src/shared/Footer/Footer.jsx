@@ -14,7 +14,7 @@ const Footer = props => {
             <FontAwesomeIcon className="icons" icon={faInstagram} size="3x" color="white" />
             <FontAwesomeIcon className="icons" icon={faYoutube} size="3x" color="white" />
             <FontAwesomeIcon className="icons" icon={faPinterest} size="3x" color="white" />
-            <Paragraph className="copyright">{`©${year} Loveantiques`}</Paragraph>
+            <Paragraph className="copyright">{`©${year} Jasamir`}</Paragraph>
         </footer>
     );
 };

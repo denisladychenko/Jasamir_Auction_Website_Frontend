@@ -1,0 +1,97 @@
+.carousel {
+    height: 70vh;
+    padding: 2%;
+}
+
+.carousel-inner {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-item {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.carousel-image {
+    display: inline-block;
+    width: 50% !important; 
+    height: 100%;
+    margin: auto;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(57, 60, 63);;
+    top:50%;
+    transform: translate(0, -50%);
+    border-radius: 100%;
+    color: black;
+}
+.carousel-control-prev {
+    left: 10%;
+}
+.carousel-control-next {   
+  right: 10%;
+}
+
+.learn-more-btn {
+    margin-top: 20px;
+}
+
+
+
+@media screen and (max-width: 1140px) {
+
+    .carousel {
+    height: 60vh;
+}
+
+.carousel-image {
+    width: 80% !important; 
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 50px;
+    height: 50px;
+}
+.carousel-control-prev {
+    left: 5%;
+    font-size: x-small;
+}
+.carousel-control-next {   
+  right: 5%;
+  font-size: x-small;
+}
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .carousel {
+    height: 60vh;
+}
+
+.carousel-image {
+    width: 98% !important; 
+}
+
+.carousel-control-prev {
+    left: 2%;
+    font-size: xx-small;
+}
+.carousel-control-next {   
+  right: 2%;
+  font-size: xx-small;
+}
+
+.learn-more-btn {
+    margin-top: 10px;
+}
+
+
+}

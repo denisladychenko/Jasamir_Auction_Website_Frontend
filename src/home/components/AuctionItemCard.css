@@ -1,0 +1,55 @@
+.highlights-carousel-item-container {
+    position: relative;
+    display: inline-block;
+    width: 60%;
+    height: 90%;
+    text-align: center;
+    border: 5px solid rgb(176, 182, 154);
+    border-radius: 45px;
+    color: white;
+}
+
+.highlights-carousel-item-title {
+    background-color: rgb(29, 28, 28, 0.7);
+    border-radius: 45px 45px 0 0;
+    height: 35%;
+    padding: 15px;
+    text-transform: capitalize;
+}
+
+.highlights-carousel-item-title p{
+    font-size: 3rem;
+}
+
+.highlights-carousel-item-body {
+    width: 100%;
+    height: 65%;
+    background-color: rgb(91, 92, 92);
+    border-radius: 0 0 45px 45px;
+}
+
+.highlights-carousel-item-image {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    width: 300px;
+    height: 350px;
+    border-radius: 15px;
+}
+
+.highlights-carousel-item-body-content {
+    width: 60%;
+    float: right;
+    padding: 50px;
+}
+
+.highlights-carousel-item-description-paragraph {
+    font-size: 1.1rem;
+    padding-bottom: 20px;
+}
+
+.highlights-carousel-item-price-paragraph {
+    font-size: 3rem;
+    padding-top: 20px;
+}
+

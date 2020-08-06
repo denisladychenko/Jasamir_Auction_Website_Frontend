@@ -1,7 +1,30 @@
 .auction-info-section {
     position: relative;
     min-width: 100%;
-    min-height: 400px;
-    background-color: rgb(213, 219, 224);
+    min-height: auto;
+    background-color: white;
     z-index: 1;
+}
+
+
+
+
+@media screen and (max-width: 1140px) {
+    .auction-section-title {
+        font-size: 4rem;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .auction-section-title {
+        font-size: 3rem;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    .auction-section-title {
+        font-size: 2rem;
+    }
 }
