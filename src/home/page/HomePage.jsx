@@ -42,7 +42,7 @@ const HomePage = props => {
 
       </HighLightsSection>
       <TestimonialsSection>
-
+        
       </TestimonialsSection>
     </Container>
 

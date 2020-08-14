@@ -5,7 +5,7 @@ import "./CarouselIndicators.css";
 
 const CarouselIndicators = props => { 
     return (
-        <ol class="carousel-indicators">
+        <ol class={`carousel-indicators ${props.className}`}>
             {props.children}
         </ol>
     );

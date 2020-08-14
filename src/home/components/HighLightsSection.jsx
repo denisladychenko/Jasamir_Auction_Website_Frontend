@@ -11,7 +11,7 @@ const HighLightsSection = props => {
     const items = [
         {
             id: 1,
-            name: "Faberge Egg",
+            name: "Faberge Egg with some gorgeous frame",
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             price: 3000000,
             image: "assets/images/faberge.webp",
@@ -36,7 +36,7 @@ const HighLightsSection = props => {
     ]
 
     const trancDescription = (description) => {
-        return description.substring(0, 100);
+        return description.substring(0, 100);          //returns first 100 characters
     };
 
     const formatAsCurrency = (price) => { 
@@ -76,7 +76,7 @@ const HighLightsSection = props => {
                     })}    
                 
             </Carousel>
-            {props.children}
+            {/* {props.children} */}
         </section>
     );
 };

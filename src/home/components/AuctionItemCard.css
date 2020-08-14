@@ -51,5 +51,152 @@
 .highlights-carousel-item-price-paragraph {
     font-size: 3rem;
     padding-top: 20px;
+    font-weight: bold;
+
 }
 
+
+
+/*media queries*/
+@media screen and (max-width: 1470px) {
+    .highlights-carousel-item-container {
+    width: 70%;
+    height: 80%;
+    }
+
+.highlights-carousel-item-title p{
+    font-size: 2.5rem;
+}
+
+.highlights-carousel-item-image {
+    width: 250px;
+    height: 300px;
+}
+
+.highlights-carousel-item-body-content {
+    width: 65%;
+    float: right;
+    padding: 40px;
+}
+
+.highlights-carousel-item-description-paragraph {
+    font-size: 1rem;
+}
+
+.highlights-carousel-item-price-paragraph {
+    font-size: 2.5rem;
+    padding-top: 30px;
+}
+}
+
+
+
+@media screen and (max-width: 1110px) {
+    .highlights-carousel-item-container {
+    width: 80%;
+    }
+
+
+.highlights-carousel-item-image {
+    width: 220px;
+    height: 270px;
+}
+
+
+.highlights-carousel-item-price-paragraph {
+    font-size: 2.2rem;
+    padding-top: 10px;
+}
+}
+
+
+
+@media screen and (max-width: 855px) {
+  .highlights-carousel-item-container {
+    width: 90%;
+
+}
+
+.highlights-carousel-item-title {
+    padding: 10px;
+}
+
+.highlights-carousel-item-title p{
+    font-size: 2rem;
+}
+
+.highlights-carousel-item-image {
+    left: 3%;
+
+}
+
+.highlights-carousel-item-body-content {
+    width: 55%;
+    padding: 20px;
+}
+
+.highlights-carousel-item-description-paragraph {
+    font-size: 0.9rem;
+    padding-bottom: 10px;
+}
+
+.highlights-carousel-item-price-paragraph {
+    font-size: 2rem;
+}
+}
+
+
+
+@media screen and (max-width: 580px) {
+  .highlights-carousel-item-container {
+    width: 98%;
+    height: 92%;
+}
+
+.highlights-carousel-item-title {
+    height: 10%;
+    padding: 0;
+    
+}
+
+.highlights-carousel-item-title p{
+    display: block;
+    font-size: 1.5rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.highlights-carousel-item-image {
+    position: relative;
+    padding: 5px 0 0;
+    width: 130px;
+    height: 130px;
+    left: 3%;
+    top: 30%;
+}
+
+.highlights-carousel-item-body-content {
+    width: 100%;
+    height: 100%;
+    padding: 20px 0;
+    float: none;
+    margin-top: -130px;
+    padding-top: 160px;
+}
+
+.highlights-carousel-item-description-paragraph {
+    font-size: 0.8rem;
+    padding-bottom: 0;
+
+}
+
+.highlights-carousel-item-price-paragraph {
+    font-size: 1.5rem;
+}
+
+.highlights-carousel-item-body {
+    width: 100%;
+    height: 90%;
+}
+}

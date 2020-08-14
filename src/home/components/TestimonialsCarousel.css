@@ -1,0 +1,11 @@
+.testimonials-carousel {
+    height: 50vh;
+}
+
+/*media queries*/
+@media screen and (max-width: 780px) {
+    
+    .testimonials-carousel {
+    height: 65vh;
+}
+}

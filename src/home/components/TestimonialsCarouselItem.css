@@ -1,0 +1,37 @@
+
+.testimonial-container {
+    position: relative;
+    width: 50% !important;  
+    display: inline-block;
+    margin: auto;
+}
+
+.testimonial-text-paragraph {
+    padding-top: 30px;
+    font-size: 1.5rem;
+}
+
+.testimonial-name-paragraph {
+    font-size: 1rem;
+    padding-top: 50px;
+    text-align: left;
+}
+
+
+/*media queries*/
+@media screen and (max-width: 780px) {
+    .testimonial-container {
+    width: 90% !important;  
+}
+
+.testimonial-text-paragraph {
+    padding-top: 0px;
+    font-size: 1.2rem;
+}
+
+.testimonial-name-paragraph {
+    font-size: 0.9rem;
+    padding-top: 20px;
+}
+
+}
